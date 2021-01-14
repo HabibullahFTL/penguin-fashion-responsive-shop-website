@@ -1,0 +1,157 @@
+/* Header Section Design  */
+.header{
+    background: #FFFBF0;
+    padding: 20px 0 70px 0;
+}
+.navbar-brand img{
+    width: 250px;
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: 700;
+}
+.slider-part h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #363958;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.slider-part .text-orange{
+    color: #FA804C;
+}
+.slider-part p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.slider-part button,.card-footer button{
+    background-image: linear-gradient(#198754,#40af7c);
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.slider-part button:hover,.card-footer button:hover{
+    background-image: linear-gradient(#40af7c,#198754);
+}
+.card-footer button{
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Woman & Man Jacket Section Design  */
+.woman-jacket,.man-jacket{
+    margin: 50px 0;
+}
+.section-title{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 35px;
+    padding: 15px 0;
+    color: #363958;
+}
+.card,.card-footer{
+    border: none;
+    background: none;
+}
+.card{
+    border-radius: 20px;
+}
+.card .card-img-top{
+    background: #F1F1F1;
+    padding: 25px;
+    width: calc(100% - 50px);
+    margin: 25px auto 0 auto;
+    border-radius: 15px;
+}
+.card-body h5{
+    font-weight: 700;
+    padding: 10px;
+}
+.card-body p{
+    padding: 0 10px;
+}
+.card-footer{
+    padding: 20px 25px 30px 25px;
+}
+.card-footer .price{
+    color: #FABE4C;
+    font-weight: 700;
+}
+
+/* More Details Section Design  */
+.more-details{
+    padding: 30px 0 50px 0;
+}
+.more-details .details{
+    padding: 15px 30px;
+}
+.more-details .details-img{
+    width: 80px;
+}
+.more-details .details-img img{
+    width: 100%;
+}
+.more-details .details-text{
+    margin-left: 25px;
+}
+.more-details .details-text h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.more-details .details-text p{
+    font-weight: 500;
+}
+.shopping-img{
+    padding: 30px;
+}
+
+/* Footer Section Design  */
+.footer{
+    background: #FFFBF0;
+}
+.foooter-part-1,.foooter-part-2,.foooter-part-3{
+    padding: 20px 30px;
+}
+.footer h5{
+    border-bottom: 2px solid #198754;
+    padding: 0 0 10px  0;
+}
+.footer ul{
+    padding-left: 20px;
+    list-style: none;
+}
+.footer ul li a{
+    color: #363958;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: #198754;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.foooter-part-3 ul li{
+    display:  inline-block;
+}
+.foooter-part-3 ul li a{
+    font-size: 30px;
+    margin: 5px;
+}
+.footer_copyright{
+    background-color: #fdf6e0;
+    padding: 20px;
+}
+.footer_copyright p{
+    margin: 0;
+    text-align: center;
+}
+@media (max-width: 720px){
+    .header{
+        padding: 20px 20px 70px 20px;
+    }
+    .slider-part h1{
+        font-size: 40px;
+
+    }
+}
